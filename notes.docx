@@ -1,0 +1,32 @@
+﻿LOGIC :
+So basically we are maintaining two arrays , one for storing the game pattern given by System (Here generated using random module in javascript) & other one for storing user input 
+
+So what we basically are doing is , Everytime the System suggests next color to User , we are resetting the userPattern array , when user is clicking the colors , we are filling it , simulatanously we are checking each filled color in userPattern array with gamePattern array , here index is crucial , as we need to check colors in sequence as system have generated them.
+
+for it , we are always checking the last element index from userPattern array , as we are filling it everytime .So we get the correct index to be compared upon from both the arrays.
+
+At any instant we get wrong ans , we suggest that and restart game after user input for the same.
+While checking , we check until sizes of both arrays are equal and then only system gives next color .
+
+This provides ample time for user to memorize the pattern.
+
+
+
+
+
+
+//SOME CONCEPTS :
+
+
+
+In jQuery, the .on() method is used for attaching one or more event handlers to selected elements. 
+
+General syntax :
+(selector).on(event,handler function)
+
+
+
+
+
+
+
